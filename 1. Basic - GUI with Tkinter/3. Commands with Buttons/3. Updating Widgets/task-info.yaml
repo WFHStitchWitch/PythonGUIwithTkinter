@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 170
-        length: 76
+        length: 26
         placeholder_text: "# TODO Use the config function to change the text of the text1\
       \ Label widget."
         initial_state:
@@ -12,8 +12,8 @@ files:
           offset: 170
         initialized_from_dependency: false
         encrypted_possible_answer: 4minO4kpD9mampJlJ/gxUhnOurLKS5OdG92H4h+Vg0Y=
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: tests/test_task.py
     visible: false
@@ -24,6 +24,6 @@ files:
   - name: tests/__init__.py
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
 record: -1
 post_submission_on_open: true

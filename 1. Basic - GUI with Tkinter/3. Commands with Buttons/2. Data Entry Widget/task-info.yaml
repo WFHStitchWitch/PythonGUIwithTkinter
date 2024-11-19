@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 274
-        length: 25
+        length: 20
         placeholder_text: "# TODO create a label and add it to the window"
         initial_state:
           length: 46
@@ -13,8 +13,8 @@ files:
         encrypted_possible_answer: sZRCK3xUctq0/kw6pNhGOrr+TmsojLVyzSgT/LfEAkbfZBa8ENsDoM05pTlgEvzF
         selected: true
         status: Solved
-      - offset: 310
-        length: 135
+      - offset: 294
+        length: 0
         placeholder_text: "# TODO Create a button that used  command=clicked"
         initial_state:
           length: 49

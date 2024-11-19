@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 79
-        length: 13
+        length: 7
         placeholder_text: "# TODO choose an name for your function."
         initial_state:
           length: 40
@@ -13,8 +13,8 @@ files:
         encrypted_possible_answer: W5C9rT41590UXxzhPONLCw==
         selected: true
         status: Solved
-      - offset: 226
-        length: 55
+      - offset: 220
+        length: 49
         placeholder_text: "# TODO add the code to create a button."
         initial_state:
           length: 39

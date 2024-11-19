@@ -4,7 +4,7 @@ from tkinter import *
 
 # define all functions
 def clicked():
-    button1.config(# TODO update the button config when it is clicked)
+    button1.config(text="Clicked!", fg="white", bg="black")
 
 
 # create window

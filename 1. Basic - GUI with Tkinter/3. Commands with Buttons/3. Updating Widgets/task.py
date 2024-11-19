@@ -6,7 +6,7 @@ from tkinter import *
 def clicked():
     text = entry_text.get()
     display_text = "Hello," + text + "! How are you?"
-    text1# TODO Use the config function to change the text of the text1 Label widget.
+    text1.config(text=display_text)
     button1.config(state=DISABLED)
 
 # create window

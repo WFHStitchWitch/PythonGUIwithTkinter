@@ -6,7 +6,7 @@ from tkinter import *
 def clicked():
     name = name_entry.get()
     surname = surname_entry.get()
-    # TODO create the welcome message and configure the text attribute of the message_label
+    message_label.config(text="Welcome " + name + " " + surname + "! You have registered.")
 
 
 # create window
@@ -15,7 +15,14 @@ window.title("Exercise 5")
 window.geometry("300x150")
 
 # create widgets
-# TODO Create your widgets
+top_frame = Frame(window)
+middle_frame = Frame(window)
+name_label = Label(top_frame, text="Name")
+name_entry = Entry(top_frame)
+surname_label = Label(middle_frame, text="Surname")
+surname_entry = Entry(middle_frame)
+register_button = Button(window, text="Register", command=clicked)
+message_label = Label(window, text="Message")
 
 # pack widgets into window container
 top_frame.pack(fill="both")

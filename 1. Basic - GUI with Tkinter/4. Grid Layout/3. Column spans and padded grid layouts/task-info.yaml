@@ -3,16 +3,16 @@ files:
   - name: task.py
     visible: true
     placeholders:
-      - offset: 698
-        length: 61
+      - offset: 724
+        length: 67
         placeholder_text: "# TODO use the ipadx config option to make the buttons larger"
         initial_state:
           length: 61
           offset: 698
         initialized_from_dependency: false
         encrypted_possible_answer: PoU6jzcqAmvBMFnNWaeLKwIJokwpnU0EuQp8rHeddKn0mQyfFlqFrWLvzRRg0WZsFxnBGWtOrAEYoKf+0wUw+JUszqGr+ktnL7sSXnWtvJihg9NwADIXoJFabvihd2Ya+etaauTKlqLbkzoV4WMiFINQ24WAAPns6hV+JE4s5N3Od5RleqOhcMTjZjKPBF72
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: tests/test_task.py
     visible: false
@@ -35,6 +35,6 @@ files:
     visible: false
     is_binary: true
     learner_created: false
-status: Unchecked
+status: Solved
 record: -1
 post_submission_on_open: true
